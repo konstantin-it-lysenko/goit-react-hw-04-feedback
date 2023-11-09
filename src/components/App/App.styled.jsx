@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { theme } from 'constants';
 
 export const Container = styled.div`
   margin: 0 auto;
@@ -14,4 +15,9 @@ export const Container = styled.div`
   @media (min-width: 1440px) {
     max-width: 1440px;
   }
+`;
+
+export const StatisticsTitle = styled.h2`
+  font-size: ${theme.font.large};
+  margin: 50px 0 30px;
 `;
